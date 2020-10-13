@@ -36,7 +36,7 @@ const MenuItem = ({link, children, pathname}) => {
         </div>
     );
 };
-
+2
 class App extends Component {
     render() {
         return (
@@ -50,16 +50,15 @@ class App extends Component {
                         {(pathname) => (
                             <div>
                                 <MenuItem pathname={pathname} link='/'>All applications</MenuItem>
-                                <MenuItem pathname={pathname} link='/react'>React 16 application</MenuItem>
-                                <MenuItem pathname={pathname} link='/angular'>Angular 5 application</MenuItem>
+                                <MenuItem pathname={pathname} link='/react'>React JS</MenuItem>
+                                <MenuItem pathname={pathname} link='/angular'>Angular</MenuItem>
                             </div>
                         )}
                     </Menu>
                     <div className="App-container">
-                        <div id="newreact-app"/>
+                        <div id="react-app"/>
                         <div id="react-app"/>
                         <div id="angular-app"/>
-                        <div id="weather"/>
                     </div>
                 </div>
             </div>

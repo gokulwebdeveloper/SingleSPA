@@ -2,7 +2,7 @@ import * as singleSpa from "single-spa";
 import {matchingPathname, runScript} from "./utils";
 
 const loadReactApp = async () => {
-    await runScript('http://localhost:3002/static/js/main.js');
+    await runScript('http://localhost:3010/static/js/main.js');
     return window.reactApp;
 };
 
