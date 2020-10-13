@@ -30,7 +30,7 @@ npm install
 npm run build
 npm run serve
 ~~~~
-Now bundles are available here: http://localhost:3001
+Now bundles are available here: http://localhost:3008
 ### sub-app-react16
 ~~~~
 cd sub-app-react16
@@ -38,8 +38,8 @@ npm install
 npm run build
 npm run serve
 ~~~~
-Now bundles are available here: http://localhost:3002
-### main-app
+Now bundles are available here: http://localhost:3010
+#0# main-app
 ~~~~
 cd main-app
 npm install
